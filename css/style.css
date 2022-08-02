@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    background-color: #3a4df1;
+    width: 290px;
+    height: 100vh;
+    text-align: center;
+    position: absolute;
+}
+
+.content {
+    width: 290px;
+    position: absolute;
+    top: 50%;
+    margin-top: -145px;
+}
+
+.content img {
+    width: 166px;
+    height: 166px;
+    border-radius: 100%;
+    border: 5px solid #2a2ee9;
+}
+
+.content ul {
+    padding: 0;
+    margin: 0;
+}
+
+.content li {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.content li a {
+    text-decoration: none;
+    color: #b2d2f0;
+}
+
+.active {
+    color: #fff !important;
+}
+.content li a:hover {
+    color:#fff;
+}
+
+#info {
+    margin-left: 338px;
+    position: absolute;
+    top: 50%;
+    font-family: 'Lalezar', cursive;
+}
+
+#info a {
+    text-decoration: none;
+    color: #2a2ee9;
+}
+
+.cinfo {
+    height: 350px;
+    margin-top: -150px;
+}
+
+.cinfo h1 {
+    font-size: 93px;
+    color: hsl(204deg 9% 22%);
+    margin: 0;
+    padding: 0;
+}
+
+.cinfo h4 {
+    font-size: 20px;
+    margin-top:-36px;
+}
+
+.cinfo p {
+    margin-block-start: 0;
+}
+
+.cinfo span {
+    color: #2a2ee9;
+}
+
+.cinfo ul {
+    margin-block-start: 3em;
+    padding-inline-start: 0;
+    margin-inline-start: -23px;
+}
+
+.cinfo ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.cinfo ul img {
+    opacity: 0.7;
+}
+
+.cinfo ul img:hover {
+    opacity: 1;
+}
+
+ol {
+    columns: 4 !important;
+    -webkit-columns: 4 !important;
+    -moz-columns: 4 !important;
+}
+
+ol > li:nth-of-type(2n) {
+    background-color: #ccebf5 ;
+    margin-right: 10px;
+}
+
+ol > li:nth-of-type(2n+1) {
+    background-color: #2cd2fc ;
+    margin-right: 10px;
+}
+
+ol img {
+    margin-left: -16px;
+}
+
+#obj {
+    margin-block-start: -1em;
+    padding-inline-start: 0;
+    margin-inline-start: 0;
+}
+
+#obj li {
+    font-size: 20px;
+    list-style: square;
+    display: list-item;
+}
